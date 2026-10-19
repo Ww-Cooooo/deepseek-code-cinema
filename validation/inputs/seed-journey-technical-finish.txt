@@ -1,0 +1,15 @@
+/code-to-video
+
+接续当前目录《一粒种子的远行》同一工程，只完成原50秒有声完整影片的运行和交付收尾。现有全部业务源码和七镜头表均是前面DeepSeek Flash独立业务上下文写的，不是创建者答案；本轮为控制长历史以新上下文继续同一任务，模型仍deepseek-official/deepseek-flash/low，单次输出8192。用户认可过8秒《渡》方向，不是全片通过；原v1/v2保留。
+
+当前src/config.ts七镜头均已标为implemented，src/Root.tsx已注册Film全片和旧CrossingPreview，src/film/Film.tsx及各镜头均已写出。但尚未形成可交付全片。不要重新研究参考、改写故事或反复打磨已认可的八秒。优先运行typecheck，按错误定位读实际受影响文件并修正，再补足50秒声音并实际sound/render。不要无差别重读所有已完成源文件。
+
+创建者只运行过typecheck，没有代改业务代码。实际错误：
+- src/crossing/Seed.tsx的240、253、277行，geometry属性被当成SVGLineElementAttributes而报TS2322。
+- src/film/shots的StillForest/Gust/Headwind/Burial/Crack/GrowthRings多处相对crossing、motion导入找不到。
+- GrowthRings.tsx从remotion导入useThree报不存在，state隐式any，以及material unknown类型错误。
+请以本机实际检查为准，具体修法由你完成。现有依赖、字体、浏览器、FFmpeg可用，不重新安装。
+
+当前只见score-crossing.json与8秒音轨；请按已有50秒故事写全长音乐/音效，时间与全片统一，实际生成WAV并合成完整MP4。可使用已有合成器和渲染脚本，不新增付费服务。完整片out/film-v1.mp4，保留旧版。导出前看高信息镜头/切点样本，导出后读实际MP4接触表或帧、核对技术信息，明确无法连续观看和听音，交人工。简洁更新README和review，不写长篇过程文档。
+
+总预算仍10元，目前已结算峰价估算9.364196元，余约0.64元；失败重试计入。每次HTTP前有官方离线分词器估算的保守预留保护，2倍文本token、64k额外余量、每图2048；不许修改预算或账本。没有用量的调用不退预留。不要其他样片、共同开发会话、私人Skill、凭据、子Agent、外发或发布。全部PowerShell用pwsh7，禁powershell.exe及Superpowers。把余量用于实际完成与高信息检查，完成后停止。

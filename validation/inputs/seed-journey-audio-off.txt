@@ -1,0 +1,7 @@
+只处理当前《一粒种子的远行》工程全长声音收尾，不重新加载Skill长正文、做视觉研究或修改画面。现有全部业务代码来自前面同一个DeepSeek目标任务。50秒Film及七镜头已实际typecheck通过；缺public/film-score.wav，原8秒crossing-preview.wav保留。
+
+先一次合并读取且只读取scripts/sound.mjs、score-crossing.json、src/config.ts。复用你现有合成器，精炼扩展为50秒完整原创音乐与音效，不重写庞大合成器。音乐、事件和落点由你判断，配合种子旅途的起伏与结局；不能把8秒循环或留空当全片。保留8秒入口和资源。
+
+请尽量在一次工具调用中完成同类文件修改及新增全长配乐数据；然后运行生成50秒立体声public/film-score.wav。若写好脚本后预算拦住执行，停止并简洁报告具体生成命令，创建者会原样运行既有脚本导出、记录辅助，不由创建者代写声音。无需渲染影片、看帧或写过程文档。
+
+当前峰价估算9.713288元，已全结算，总10元，余0.286712元；每HTTP保守预留不可改。这次为同一deepseek-official/deepseek-flash/off，输出8192，以避免此前输出耗尽；不换模型。所有PowerShell用pwsh7。禁止其他文件/样片/协作会话/私人Skill/凭据、Superpowers、powershell.exe、子Agent、额外付费、外发或发布。只完成现有全长声音，生成后即停。

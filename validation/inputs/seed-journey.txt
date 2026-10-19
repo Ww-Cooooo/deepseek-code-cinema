@@ -1,0 +1,9 @@
+/code-to-video 请制作一支约50秒、无旁白的中文原创电影短片，片名《一粒种子的远行》。故事、环境、镜头和视觉由你设计，用画面与声音讲清一个有展开、有结局的小故事。希望接近以下参考的电影化空间、尺度与光影，采用有体积和深度的场景：
+https://www.bilibili.com/video/BV1L6Je6kEaC/
+https://www.bilibili.com/video/BV1M9ah6JE7f/
+
+交付目标为1920×1080、30fps、有合适声音的完整MP4与可修改工程。先做好全片简报/镜头安排，并只实现、导出一段约8秒、最能代表方向的真实声画短段，供人工核对风格；不要只做logo/片名。实际查看输出后将本轮短段和工程交付，暂停等反馈，收到反馈后在同一工程继续完成全片。
+
+参考帧在本工程 .reference/ 中：history-overview.jpg、history-motion.jpg、latent-overview-1.jpg、latent-overview-2.jpg。请实际读图；它们只供观察，不进入正片或公开资源。后者是覆盖259秒时长的关键帧，不代表连续播放/听音。影片是原创视觉寓言，允许有意压缩时间；不用真实植物生长实验或纪实口吻包装它。
+
+当前是全新的独立工程上下文。只能读取本片 .reference/、当前工程、已发现的code-to-video完整包和正常基础工具；不读创建对话、其他样片、协作讨论、旧包或私人技能。Node/npm/Chromium/FFmpeg/FFprobe已可用，必要时按包说明检查。Windows全部PowerShell只用pwsh7，禁止powershell.exe/5.1和Superpowers。可创建本片文件、安装依赖和运行本地制作命令；不改宿主、凭据或预算配置，无子Agent、无新增付费服务、无发布或外发。保留失败和旧版，如实说明不能感知的听音/动态范围。合理控制调用，不反复润色过程文档。

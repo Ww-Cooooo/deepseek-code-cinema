@@ -1,0 +1,7 @@
+这是当前目录《一粒种子的远行》同一DeepSeek作品的最后声音交付步骤。直接调用write工具，一次写出完整、精简、可运行的scripts/sound-film.mjs。不要先read、pwsh或加载Skill，不要写PowerShell here-string，不要再写abort-placeholder。只需一个完整Node.js脚本，控制在约150行以内即可；使用Node内置模块、不加依赖。脚本由你独立设计原创音乐与音效，运行后在当前工程生成public/film-score.wav，50秒、48kHz双声道PCM WAV。代码要确定性、无削波，有自然起伏和结束衰减，不能只是原8秒循环或静音。
+
+不需要读文件的现有工程事实：50秒Film和七镜头已由前面你自己的DeepSeek上下文实现，创建者实际typecheck通过；Full Film已引用public/film-score.wav，唯独这个音轨缺失。无旁白种子旅途，已有镜头时段是0–7秒枯林·一粒、7–14起风、14–22渡、22–30逆风、30–37入土、37–44裂、44–50年轮。已有空间风格为深青枯林/水面/雾中低日与暖色微小种子，用户认可过八秒路线。配乐、音符、音效、声场与落点由你决定，配合这段行动及结局，不改画面和原8秒资源。
+
+创建者不会代写或改你的声音代码，会直接运行node scripts/sound-film.mjs并渲染现有Film，记录运行辅助。你本轮只用write写这一个完整文件，写完即停止，不运行、不读图、不追加文档。之前你读脚本后用pwsh写长草稿却throw abort-placeholder，未留下全长声音，此次必须实际留下可运行文件。
+
+预算当前峰价估算9.781707元，总10元不变，已全部结算，余约0.218293元。当前同一deepseek-official/deepseek-flash/off、单次输出4096，费用保护不可改。禁止额外文件、其他样片/协作会话/私人Skill/凭据、Superpowers、子Agent、额外付费、外发与发布。请直接完成唯一的write动作。

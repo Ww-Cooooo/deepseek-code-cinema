@@ -1,0 +1,24 @@
+{
+  "output": "public/crossing-preview.wav",
+  "beds": [
+    {"type": "wind", "gain": 0.21, "seed": 7101},
+    {"type": "waterHiss", "gain": 0.018, "seed": 4409},
+    {"type": "drone", "gain": 0.035, "notes": [36.71, 73.42, 110.0], "seed": 333},
+    {"type": "seedWhoosh", "gain": 0.062, "seed": 3013}
+  ],
+  "events": [
+    {"type": "paper", "at": 0.78, "duration": 0.55, "gain": 0.055, "pan": -0.22},
+    {"type": "waterLap", "at": 0.95, "duration": 0.7, "gain": 0.07, "pan": -0.45},
+    {"type": "waterLap", "at": 1.55, "duration": 0.75, "gain": 0.05, "pan": -0.25},
+    {"type": "treeGroan", "at": 2.62, "duration": 2.4, "gain": 0.065, "pan": -0.55},
+    {"type": "waterLap", "at": 3.15, "duration": 0.9, "gain": 0.045, "pan": 0.2},
+    {"type": "treeGroan", "at": 4.78, "duration": 1.4, "gain": 0.03, "pan": -0.2},
+    {"type": "waterLap", "at": 5.0, "duration": 0.7, "gain": 0.03, "pan": 0.35},
+    {"type": "waterLap", "at": 4.42, "duration": 0.8, "gain": 0.035, "pan": 0.55},
+    {"type": "shimmer", "at": 5.15, "duration": 3.0, "freq": 1174.66, "gain": 0.022, "pan": -0.4},
+    {"type": "shimmer", "at": 5.42, "duration": 2.7, "freq": 1760.0, "gain": 0.015, "pan": 0.35},
+    {"type": "shimmer", "at": 5.68, "duration": 2.5, "freq": 1396.91, "gain": 0.013, "pan": 0.1},
+    {"type": "waterLap", "at": 5.88, "duration": 0.7, "gain": 0.025, "pan": 0.45},
+    {"type": "shimmer", "at": 6.75, "duration": 1.25, "freq": 2349.32, "gain": 0.008, "pan": -0.1}
+  ]
+}

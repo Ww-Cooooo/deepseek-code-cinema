@@ -1,0 +1,13 @@
+.prompt-ready/
+.local-backup/
+.local-tests/
+node_modules/
+dist/
+out/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+*.mp4
+*.zip

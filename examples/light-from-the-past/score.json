@@ -1,0 +1,36 @@
+{
+  "output": "public/review-sound.wav",
+  "durationSeconds": 8,
+  "beds": [
+    {"type": "ocean", "at": 0.0, "duration": 8.0, "gain": 0.043, "send": 0.05},
+    {"type": "air", "at": 0.25, "duration": 7.75, "gain": 0.009, "send": 0.22}
+  ],
+  "events": [
+    {"type": "pad", "at": 0.15, "duration": 7.4, "gain": 0.018, "attack": 2.2, "release": 2.5,
+      "notes": [36.71], "weights": [1], "pans": [0], "detune": 0.0014, "send": 0.08},
+    {"type": "pad", "at": 0.72, "duration": 6.7, "gain": 0.011, "attack": 2.1, "release": 2.7,
+      "notes": [73.42, 146.83, 174.61, 220.0, 329.63], "weights": [0.65, 0.88, 0.6, 0.72, 0.38],
+      "pans": [0.0, -0.38, 0.25, -0.12, 0.42], "detune": 0.002, "send": 0.38},
+    {"type": "pad", "at": 2.9, "duration": 4.3, "gain": 0.0038, "attack": 1.7, "release": 2.2,
+      "notes": [587.33, 880.0, 1174.66], "weights": [0.65, 0.45, 0.28],
+      "pans": [0.35, -0.25, 0.05], "detune": 0.0024, "send": 0.55},
+    {"type": "pad", "at": 5.16, "duration": 2.82, "gain": 0.0095, "attack": 0.38, "release": 2.1,
+      "notes": [73.42, 146.83, 185.0, 220.0, 329.63, 440.0],
+      "weights": [0.7, 0.82, 0.6, 0.58, 0.3, 0.15],
+      "pans": [-0.1, 0.3, -0.25, 0.18, 0.4, -0.35], "detune": 0.0018, "send": 0.45},
+
+    {"type": "bell", "at": 1.92, "duration": 4.3, "gain": 0.031, "frequency": 1174.66, "pan": 0.52, "decay": 0.82, "send": 0.5},
+    {"type": "bell", "at": 2.44, "duration": 2.8, "gain": 0.009, "frequency": 1760.0, "pan": 0.14, "decay": 1.25, "send": 0.58},
+    {"type": "bell", "at": 3.4, "duration": 2.0, "gain": 0.0075, "frequency": 880.0, "pan": 0.36, "decay": 1.5, "send": 0.55},
+    {"type": "bell", "at": 4.1, "duration": 2.1, "gain": 0.0095, "frequency": 1174.66, "pan": 0.02, "decay": 1.35, "send": 0.55},
+    {"type": "bell", "at": 4.78, "duration": 1.9, "gain": 0.0068, "frequency": 1318.51, "pan": -0.3, "decay": 1.6, "send": 0.6},
+    {"type": "bell", "at": 5.36, "duration": 2.5, "gain": 0.018, "frequency": 587.33, "pan": -0.38, "decay": 0.9, "send": 0.48},
+    {"type": "bell", "at": 5.43, "duration": 2.35, "gain": 0.0105, "frequency": 880.0, "pan": 0.26, "decay": 1.1, "send": 0.52},
+    {"type": "bell", "at": 6.55, "duration": 1.4, "gain": 0.0065, "frequency": 1174.66, "pan": 0.04, "decay": 1.15, "send": 0.6},
+
+    {"type": "impact", "at": 2.04, "duration": 1.55, "gain": 0.048, "frequency": 73.42, "send": 0.12},
+    {"type": "riser", "at": 2.36, "duration": 2.99, "gain": 0.023, "from": 240, "to": 2900,
+      "panStart": 0.65, "panEnd": -0.55, "send": 0.28},
+    {"type": "impact", "at": 5.34, "duration": 2.25, "gain": 0.068, "frequency": 73.42, "send": 0.13}
+  ]
+}

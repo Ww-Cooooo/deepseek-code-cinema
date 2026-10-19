@@ -1,0 +1,11 @@
+/code-to-video
+
+接续本目录同一《一粒种子的远行》，完成50秒完整片交付的最后运行阶段。本项目全部现有七镜头、完整Film与配置均是此前DeepSeek独立业务执行写出。创建者只运行实际检查，没有代改业务源码。此前技术修复后，创建者已实际确认npm run typecheck成功。不要重新设计或重读所有镜头，只完成尚缺的全长声音、渲染与高信息审片；本轮新上下文只为降低长历史成本。
+
+当前src/config.ts含50秒七镜头，film.compositionId='Film'、audioFile='film-score.wav'；src/Root.tsx注册全片Film和保留的8秒CrossingPreview。src/film/Film.tsx已完整总装，可按现有源码运行。用户已认可过旧8秒《渡》的空间风格，并未验收全片；旧MP4不要覆盖。
+
+实际尚缺：scripts/sound.mjs仍读取score-crossing.json、使用preview.seconds，只生成8秒crossing-preview.wav；当前未见50秒film-score.wav。请基于现有声音设计、合成器与原镜头表落实50秒音乐/音效，生成正确音轨并供Film使用，不把八秒音轨静默延长成全片，不引入额外付费服务。具体配乐、节奏、落点与实现由你完成。
+
+scripts/render.mjs支持--composition，但当前默认CrossingPreview；导出完整片请明确Film，输出out/film-v1.mp4。先声音，再选少量全片高信息镜头/切点渲染并read_image，有真实问题再修，最后完整MP4并检查技术信息、编码后采样。需要长时间本地渲染时合理等待，不反复浪费模型调用轮询。模型不能连续看听的范围交给人工，不把静帧和技术结果当用户认可。简短更新运行说明即可。
+
+现有依赖、字体、浏览器和FFmpeg可用，不重装。当前费用峰价估算9.534326元，全部已结算，总10元上限不变，余约0.47元。仍为同一Flash/low，单次输出8192，每HTTP有官方离线分词器的保守预留。禁止改账本/费用保护、追加付费服务、子Agent、外发、发布或读其他样片/共同开发会话/私人Skill/凭据。所有PowerShell用pwsh7，禁止powershell.exe及Superpowers。将剩余额度用于完成现有全片与必要实际检查，完成即停。

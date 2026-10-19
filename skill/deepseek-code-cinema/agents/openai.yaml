@@ -1,0 +1,5 @@
+interface:
+  display_name: "DeepSeek Code Cinema"
+  short_description: "将主题、脚本和素材制作成可播放、有声音、可继续修改的原创动画短片"
+policy:
+  allow_implicit_invocation: true
